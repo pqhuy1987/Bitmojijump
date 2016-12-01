@@ -66,7 +66,7 @@
 /* Begin PBXFileReference section */
 		431D81521D6A744B005958DB /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		431D81541D6A7C20005958DB /* EndGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndGameScene.swift; sourceTree = "<group>"; };
-		436A28A01D6674C3009A50FA /* UberJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		436A28A01D6674C3009A50FA /* JumpKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436A28A31D6674C3009A50FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		436A28A71D6674C3009A50FA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		436A28A91D6674C3009A50FA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		436A28A11D6674C3009A50FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				436A28A01D6674C3009A50FA /* UberJump.app */,
+				436A28A01D6674C3009A50FA /* JumpKid.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,9 +230,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		436A289F1D6674C3009A50FA /* UberJump */ = {
+		436A289F1D6674C3009A50FA /* JumpKid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 436A28B61D6674C3009A50FA /* Build configuration list for PBXNativeTarget "UberJump" */;
+			buildConfigurationList = 436A28B61D6674C3009A50FA /* Build configuration list for PBXNativeTarget "JumpKid" */;
 			buildPhases = (
 				436A289C1D6674C3009A50FA /* Sources */,
 				436A289D1D6674C3009A50FA /* Frameworks */,
@@ -242,9 +242,9 @@
 			);
 			dependencies = (
 			);
-			name = UberJump;
+			name = JumpKid;
 			productName = UberJump;
-			productReference = 436A28A01D6674C3009A50FA /* UberJump.app */;
+			productReference = 436A28A01D6674C3009A50FA /* JumpKid.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 436A289B1D6674C3009A50FA /* Build configuration list for PBXProject "UberJump" */;
+			buildConfigurationList = 436A289B1D6674C3009A50FA /* Build configuration list for PBXProject "JumpKid" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -276,7 +276,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				436A289F1D6674C3009A50FA /* UberJump */,
+				436A289F1D6674C3009A50FA /* JumpKid */,
 			);
 		};
 /* End PBXProject section */
@@ -466,7 +466,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.frogfu.100;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JumpKid;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -481,7 +481,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.frogfu.100;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JumpKid;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -489,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		436A289B1D6674C3009A50FA /* Build configuration list for PBXProject "UberJump" */ = {
+		436A289B1D6674C3009A50FA /* Build configuration list for PBXProject "JumpKid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				436A28B41D6674C3009A50FA /* Debug */,
@@ -498,7 +498,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		436A28B61D6674C3009A50FA /* Build configuration list for PBXNativeTarget "UberJump" */ = {
+		436A28B61D6674C3009A50FA /* Build configuration list for PBXNativeTarget "JumpKid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				436A28B71D6674C3009A50FA /* Debug */,
